@@ -22,7 +22,7 @@ io.on('connection' , function (socket) {
 });
 
 app.get('/' , (req , res) => {
-    res.render("index");
+    res.render("../views/index");
 })
 
 server.listen(3000);
