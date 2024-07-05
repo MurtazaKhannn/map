@@ -8,7 +8,7 @@ if(navigator.geolocation){
         console.error('Unable to get location', error);
     } , {
         enableHighAccuracy: true,
-        timeout: 4000,
+        timeout: 5000,
         maximumAge: 0
     });
 }
